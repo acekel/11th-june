@@ -10,32 +10,46 @@
 
 .navbar{
     background-color: #eee;
-    height: 60px;
+    height: 55px;
     width: 100%;
     padding: 10px;
     margin: auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.navbar-left{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
 }
 
-.navbar-left{
-    padding: ;
-}
 .logo{
-    width: 30px;
+    width: 35px;
 }
-.search-box{
-    background-color: rgba(221, 221, 221, 0.678);
+.search-bar{
+    padding: 0px 15px;
+    margin: 5px 10px;
+    height: 35px;
+    width: 300px;
+    border: 0px solid #777;
+    border-radius: 5px;
 }
 .nav-list li{
     display: inline-block;
     margin-right: 10px;
 }
 .nav-list li a{
-    color: #000;
+    color: rgba(0, 0, 0, 0.80);
     text-decoration: none;
+    position: relative;
 }
 .nav-icon{
     display: block;
     margin: auto;
+    font-size: 1.5rem;
+}
+
+.nav-list li a:hover{
+    color: #000;
 }
